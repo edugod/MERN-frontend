@@ -1,4 +1,9 @@
 <h1>Eduardo Lange Repairs - MERN Stack Project</h1>
+  <img align="center" alt="edugod-Mongo" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg">
+  <img align="center" alt="edugod-Express" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg">
+<img align="center" alt="edugod-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img align="center" alt="edugod-NodeJS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg">
+
 
 <p>This project is an MERN (MongoDB, ExpressJS, React, NodeJS) stack application for managing a repair workshop. It provides features for user authentication, note management, and user management with different roles.</p>
 
@@ -25,7 +30,7 @@
 <p>To run the project locally on your machine, follow these steps:</p>
 
 <ol>
-    <li>Clone this repository to your local machine using <code>git clone https://github.com/your-username/eduardo-lange-repairs.git</code>.</li>
+    <li>Clone this repository to your local machine using <code>git clone https://github.com/your-username/MERN-frontend.git</code>.</li>
     <li>Navigate to the project directory: <code>cd eduardo-lange-repairs</code>.</li>
     <li>Install the dependencies for the backend and frontend:</li>
 </ol>
