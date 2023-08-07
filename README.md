@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+<h1>Eduardo Lange Repairs - MERN Stack Project - Front End</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>This project is an MERN (MongoDB, ExpressJS, React, NodeJS) stack application for managing a repair workshop. It provides features for user authentication, note management, and user management with different roles.</p>
 
-## Available Scripts
+<h2>Technologies Used</h2>
 
-In the project directory, you can run:
+<ul>
+    <li>MongoDB: A NoSQL database used to store and manage data for the application.</li>
+    <li>ExpressJS: A backend web application framework used to handle server-side logic and API routes.</li>
+    <li>React: A frontend library used to build the user interface and components for the application.</li>
+    <li>NodeJS: A JavaScript runtime used to run the server and backend code.</li>
+</ul>
 
-### `npm start`
+<h2>Features</h2>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<ul>
+    <li>User Authentication: Provides login functionality for users to access protected routes and manage their data.</li>
+    <li>Note Management: Allows users to create, edit, and delete notes related to repairs.</li>
+    <li>User Management: Provides admin and manager roles to manage user information, including adding, editing, and removing users.</li>
+</ul>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h2>Getting Started</h2>
 
-### `npm test`
+<p>To run the project locally on your machine, follow these steps:</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<ol>
+    <li>Clone this repository to your local machine using <code>git clone https://github.com/your-username/eduardo-lange-repairs.git</code>.</li>
+    <li>Navigate to the project directory: <code>cd eduardo-lange-repairs</code>.</li>
+    <li>Install the dependencies for the backend and frontend:</li>
+</ol>
 
-### `npm run build`
+<pre><code>
+cd server
+npm install
+cd ../client
+npm install
+</code></pre>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p>Set up your MongoDB database and configure the connection in the server's <code>.env</code> file.</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<pre><code>
+DATABASE_URL=mongodb://your-mongodb-connection-string
+</code></pre>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p>Start the development server for both the backend and frontend:</p>
 
-### `npm run eject`
+<pre><code>
+cd server
+npm start
+cd ../client
+npm start
+</code></pre>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p>Open your web browser and go to <a href="http://localhost:3000">http://localhost:3000</a> to access the application.</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<h2>Project Structure</h2>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p>The project's code is organized as follows:</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<ul>
+    <li><strong>server</strong>: Contains the backend code, including API routes, authentication, and data handling logic.</li>
+    <li><strong>client</strong>: Contains the frontend code, built with React, including components, pages, and UI elements.</li>
+    <li><strong>config</strong>: Holds configuration files, including roles for user access control.</li>
+    <li><strong>components</strong>: Contains shared components used throughout the application.</li>
+    <li><strong>features</strong>: Includes feature-specific components and logic, such as user management and note management.</li>
+</ul>
 
-## Learn More
+<h2>Usage</h2>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p>The application includes the following routes:</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<ul>
+    <li><code>/login</code>: Login page for user authentication.</li>
+    <li><code>/dash</code>: Dashboard page after successful login, showing welcome messages and notes.</li>
+    <li><code>/users</code>: User management page for administrators and managers to view, edit, and add users.</li>
+</ul>
 
-### Code Splitting
+<h2>License</h2>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p>Feel free to explore and enhance the Eduardo Lange Repairs MERN stack project! 🛠️</p>
