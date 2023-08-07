@@ -1,4 +1,4 @@
-<h1>Eduardo Lange Repairs - MERN Stack Project - Front End</h1>
+<h1>Eduardo Lange Repairs - MERN Stack Project</h1>
 
 <p>This project is an MERN (MongoDB, ExpressJS, React, NodeJS) stack application for managing a repair workshop. It provides features for user authentication, note management, and user management with different roles.</p>
 
@@ -14,9 +14,10 @@
 <h2>Features</h2>
 
 <ul>
-    <li>User Authentication: Provides login functionality for users to access protected routes and manage their data.</li>
-    <li>Note Management: Allows users to create, edit, and delete notes related to repairs.</li>
-    <li>User Management: Provides admin and manager roles to manage user information, including adding, editing, and removing users.</li>
+    <li>User Authentication: Provides login functionality for users to access protected routes and manage their data. Implemented using JWT (JSON Web Tokens) for secure authentication.</li>
+    <li>Note Management: Allows users to create, edit, and delete notes related to repairs. Data is stored in MongoDB and accessed via RESTful API endpoints.</li>
+    <li>User Management: Provides admin and manager roles to manage user information, including adding, editing, and removing users. User passwords are encrypted using bcrypt for added security.</li>
+    <li>Redux: Utilizes Redux for state management to efficiently manage application state and data flow.</li>
 </ul>
 
 <h2>Getting Started</h2>
@@ -52,6 +53,16 @@ npm start
 </code></pre>
 
 <p>Open your web browser and go to <a href="http://localhost:3000">http://localhost:3000</a> to access the application.</p>
+
+<h2>Demo</h2>
+
+<p>You can check out the live demo of the Eduardo Lange Repairs frontend on the following website:</p>
+
+<p><a href="https://technotes-7lz9.onrender.com/">DEMO</a></p>
+
+<h2>Screenshot</h2>
+
+<img src="/src/img/screenshot.png" alt="Eduardo Lange Repairs Frontend Screenshot">
 
 <h2>Project Structure</h2>
 
