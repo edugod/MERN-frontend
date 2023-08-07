@@ -1,13 +1,14 @@
 <h1>Eduardo Lange Repairs - MERN Stack Project</h1>
 
+<p>This project is an MERN (MongoDB, ExpressJS, React, NodeJS) stack application for managing a repair workshop. It provides features for user authentication, note management, and 
+user management with different roles.</p>
+
 <div style="display: inline_block"><br>
   <img align="center" alt="edugod-Mongo" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg">
   <img align="center" alt="edugod-Express" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg">
   <img align="center" alt="edugod-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
   <img align="center" alt="edugod-NodeJS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg">
 </div>
-
-<p>This project is an MERN (MongoDB, ExpressJS, React, NodeJS) stack application for managing a repair workshop. It provides features for user authentication, note management, and user management with different roles.</p>
 
 <h2>Technologies Used</h2>
 
